@@ -6,7 +6,7 @@ namespace Zarinpal.Models;
 
 public class ZarinpalResponseDataModel
 {
-    public ZarinpalResponseDataModel(int code, string message, string authority, int fee)
+    public ZarinpalResponseDataModel(int code, ResponseMessageType message, string authority, int fee)
     {
         Code = code;
         Message = message;

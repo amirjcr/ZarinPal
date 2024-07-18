@@ -4,9 +4,9 @@ using Zarinpal.Enums;
 
 namespace Zarinpal.Config
 {
-    public class ZarinpalConfiguration
+    public class PaymentMethodConfiguration
     {
-        public ZarinpalConfiguration(string merchantId, Currency currency, string basePaymentUrl)
+        public PaymentMethodConfiguration(string merchantId, Currency currency, string basePaymentUrl)
         {
             MerchantId = merchantId;
             Currency = currency;
